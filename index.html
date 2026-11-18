@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Дофамин — массажная студия у дома · Минск</title>
+<meta name="description" content="Дофамин — массажная студия у метро «Каменная горка», Минск. Услуги и цены, команда, локация, интерьер и бизнес-план проекта.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0F2A1F;--paper:#F4F7F2;--acc:#9EE6B0;--g2:#2F7D55;--gray:#6E7B73;--line:#DCE5DD;--soft:#E6EEE7;--card:#fff}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:Manrope,system-ui,sans-serif;background:var(--paper);color:var(--ink);font-size:17px;line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:inherit}img{display:block;max-width:100%}
+.w{max-width:1200px;margin:0 auto;padding:0 20px}
+h1,h2,h3,.u{font-family:Unbounded,sans-serif;font-weight:500;letter-spacing:-.025em;line-height:1.08}
+h2{font-size:clamp(30px,4.4vw,54px);margin:14px 0 34px;max-width:900px}
+.kick{display:inline-flex;align-items:center;gap:10px;font-size:13px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+.kick:before{content:'';width:11px;height:11px;border-radius:50%;background:var(--acc);box-shadow:0 0 0 2px var(--ink)}
+section{padding:84px 0}
+nav{position:sticky;top:0;z-index:20;background:rgba(244,247,242,.86);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+nav .w{display:flex;align-items:center;justify-content:space-between;height:62px;gap:16px}
+.logo{font-family:Unbounded;font-weight:700;font-size:20px;text-decoration:none}.logo span{color:var(--g2)}
+nav .links{display:flex;gap:22px;font-weight:700;font-size:14px}nav .links a{text-decoration:none;opacity:.75}nav .links a:hover{opacity:1}
+.btn{display:inline-flex;align-items:center;gap:10px;background:var(--ink);color:#fff;text-decoration:none;border-radius:99px;padding:14px 24px;font-weight:800;font-size:15px}
+.btn.acc{background:var(--acc);color:var(--ink)}.btn.line{background:none;border:1.5px solid currentColor;color:inherit}
+.hero{background:var(--ink);color:#fff;position:relative;overflow:hidden;padding:90px 0 70px}
+.hero .blob{position:absolute;right:-180px;top:-200px;width:720px;height:720px;border-radius:50%;background:radial-gradient(circle at 35% 35%,var(--acc),var(--g2) 55%,transparent 70%);opacity:.85;filter:blur(6px)}
+.hero .tag{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:#A9BDB1;font-weight:800;position:relative}
+.hero h1{font-size:clamp(40px,12.4vw,168px);font-weight:700;letter-spacing:-.05em;margin:34px 0 10px;position:relative}.hero h1 span{color:var(--acc)}
+.hero .sub{font-size:clamp(20px,2.6vw,30px);color:#D5E2DA;max-width:640px;position:relative}
+.hero .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:34px;position:relative}
+.hero .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:70px;position:relative}
+.hero .kpis div{border-top:1.5px solid #3D5A4B;padding-top:14px;font-size:14px;color:#A9BDB1;font-weight:600}
+.hero .kpis b{display:block;font-family:Unbounded;font-weight:500;font-size:clamp(22px,3vw,34px);color:#fff;margin-bottom:4px}
+.grid{display:grid;gap:16px}.g2{grid-template-columns:1fr 1fr}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}
+.card{background:var(--card);border:1.5px solid var(--line);border-radius:26px;padding:26px 28px}
+.card.acc{background:var(--acc);border-color:var(--acc)}.card.dark{background:var(--ink);color:#fff;border-color:var(--ink)}.card.dark .m{color:#A9BDB1}
+.big{font-family:Unbounded;font-weight:500;font-size:clamp(30px,4vw,46px);letter-spacing:-.03em;line-height:1}.big i{font-style:normal;font-size:.5em;color:var(--gray);margin-left:4px}
+.card.acc .big i{color:var(--ink)}.m{color:#4D5C53;font-weight:500;margin-top:10px;font-size:15px}
+.price{background:#fff;border:1.5px solid var(--line);border-radius:26px;overflow:hidden}
+.price .row{display:grid;grid-template-columns:1fr auto auto;gap:18px;padding:18px 26px;border-bottom:1.5px solid var(--soft);align-items:center}
+.price .row:last-child{border-bottom:0}.price .row b{font-family:Unbounded;font-weight:500;font-size:22px;min-width:84px;text-align:right}
+.price .row span{color:var(--gray);font-weight:700;font-size:14px}.price .row.hot{background:var(--acc)}.price .row.hot span{color:var(--ink)}
+.price .h{background:var(--ink);color:#fff;font-size:12px;letter-spacing:.1em;text-transform:uppercase;font-weight:800}.price .h b,.price .h span{font:inherit;color:#fff}
+.notes{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}.pill{background:#fff;border:1.5px solid var(--line);border-radius:99px;padding:9px 16px;font-weight:700;font-size:14px}
+.gal{display:grid;grid-template-columns:1.4fr 1fr 1fr;grid-template-rows:240px 240px;gap:14px}.gal img{width:100%;height:100%;object-fit:cover;border-radius:24px}.gal .a{grid-row:span 2}
+.palette{display:flex;gap:18px;flex-wrap:wrap;margin-top:20px}.palette div{display:flex;align-items:center;gap:10px;font-weight:700;font-size:14px}.palette span{width:34px;height:34px;border-radius:10px;border:1.5px solid var(--line)}
+.lr{display:grid;grid-template-columns:200px 1fr;gap:20px;padding:16px 0;border-top:1.5px solid var(--ink)}.lr:last-child{border-bottom:1.5px solid var(--ink)}.lr b{font-family:Unbounded;font-weight:500;font-size:17px}.lr span{color:#3D4A43;font-weight:500}
+.map{border-radius:26px;overflow:hidden;border:1.5px solid var(--line);min-height:380px;background:#fff}.map iframe{width:100%;height:100%;min-height:380px;border:0;display:block}
+.plan{display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:110px 46px 90px;gap:6px;background:var(--ink);padding:6px;border-radius:18px}
+.plan div{background:#fff;border-radius:10px;display:flex;flex-direction:column;align-items:center;justify-content:center;font-weight:800;font-size:13px;text-align:center;padding:4px}.plan div small{color:var(--gray);font-weight:600}
+.plan .cor{grid-column:span 4;background:var(--soft)}.plan .lg{background:var(--acc)}
+.eth{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.eth .card{padding:22px}.eth .n{width:38px;height:38px;border-radius:50%;background:var(--acc);display:flex;align-items:center;justify-content:center;font-family:Unbounded;font-size:16px;margin-bottom:14px}
+.eth h3{font-size:19px;margin-bottom:8px}.eth p{font-size:14.5px;color:#3D4A43;font-weight:500}
+.team .card{min-height:230px;display:flex;flex-direction:column}.team .r{display:inline-block;background:var(--acc);border-radius:99px;padding:5px 12px;font-weight:800;font-size:13px;margin:12px 0 8px;align-self:flex-start}.team h3{font-size:22px;margin-top:auto}
+.sched{display:grid;grid-template-columns:110px repeat(14,1fr);gap:5px;font-size:12px;font-weight:800;text-align:center}
+.sched div{height:38px;border-radius:9px;background:var(--soft);display:flex;align-items:center;justify-content:center}.sched .on{background:var(--acc)}.sched .h{background:none;color:var(--gray)}.sched .l{background:none;justify-content:flex-start;font-family:Unbounded;font-weight:500;font-size:13px}
+table{width:100%;border-collapse:separate;border-spacing:0;background:#fff;border:1.5px solid var(--line);border-radius:22px;overflow:hidden;font-size:15px}
+td,th{padding:13px 18px;border-bottom:1.5px solid var(--soft);text-align:right;font-weight:600}td:first-child,th:first-child{text-align:left}tr:last-child td{border-bottom:0}
+th{background:var(--ink);color:#fff;font-size:12px;text-transform:uppercase;letter-spacing:.08em}tr.hl td{background:var(--acc)}
+.bars{display:flex;align-items:flex-end;gap:14px;height:240px;padding:20px 10px 0}.bars div{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%;gap:8px;font-weight:800;font-size:13px}
+.bars i{display:block;width:100%;border-radius:12px 12px 4px 4px;background:var(--ink)}.bars .neg i{background:#B9C7BD}.bars small{color:var(--gray);font-weight:700}
+footer{background:var(--ink);color:#fff;padding:70px 0 40px}footer .m{color:#A9BDB1}
+.scroll-x{overflow-x:auto}
+@media (max-width:900px){.g3,.g4,.eth{grid-template-columns:1fr 1fr}.g2{grid-template-columns:1fr}nav .links{display:none}.hero .kpis{grid-template-columns:1fr 1fr}
+ .gal{grid-template-columns:1fr 1fr;grid-template-rows:200px 160px 160px}.gal .a{grid-column:span 2;grid-row:auto}.lr{grid-template-columns:1fr;gap:4px}section{padding:60px 0}}
+@media (max-width:560px){.g3,.g4,.eth{grid-template-columns:1fr}.price .row{grid-template-columns:1fr auto;padding:15px 18px}.price .row span{grid-column:1;grid-row:2}.price .row b{grid-row:span 2}
+ .sched{grid-template-columns:70px repeat(14,1fr);font-size:9px;gap:3px}.sched div{height:30px;border-radius:6px}.sched .l{font-size:10px}td,th{padding:10px 10px;font-size:13px}}
+</style>
+</head>
+<body>
+<nav><div class="w"><a class="logo" href="#">ДОФАМИН<span>.</span></a>
+<div class="links"><a href="#prices">Цены</a><a href="#place">Где мы</a><a href="#interior">Интерьер</a><a href="#team">Команда</a><a href="#code">Кодекс</a><a href="#money">Цифры</a></div>
+<a class="btn acc" href="docs/Dofamin_presentation.pdf" target="_blank">Презентация</a></div></nav>
+
+<header class="hero"><div class="blob"></div><div class="w">
+<div class="tag">Массажная студия · Минск · м. «Каменная горка»</div>
+<h1>ДОФАМИН<span>.</span></h1>
+<p class="sub">SPA-пауза рядом с домом: 30–90 минут, после которых снова хочется жить.</p>
+<div class="cta"><a class="btn acc" href="#prices">Услуги и цены</a><a class="btn line" href="docs/Dofamin_business_plan.pdf" target="_blank">Бизнес-план, PDF</a></div>
+<div class="kpis"><div><b>4</b>кабинета · 90 м²</div><div><b>10–22</b>каждый день</div><div><b>от 45 BYN</b>сеанс 30 минут</div><div><b>5 мин</b>от метро</div></div>
+</div></header>
+
+<section id="prices"><div class="w">
+<div class="kick">Услуги и цены</div><h2>Семь понятных услуг. Без медицины и без пафоса</h2>
+<div class="grid g2" style="align-items:start">
+<div class="price">
+<div class="row h"><div>Услуга</div><span>Время</span><b>BYN</b></div>
+<div class="row"><div>Классический массаж спины и шеи</div><span>30 мин</span><b>45</b></div>
+<div class="row hot"><div>Классический общий массаж тела</div><span>60 мин</span><b>85</b></div>
+<div class="row"><div>Расслабляющий SPA-массаж с аромамаслами</div><span>60 мин</span><b>90</b></div>
+<div class="row"><div>Стоун-терапия (горячие камни)</div><span>75 мин</span><b>110</b></div>
+<div class="row"><div>Антицеллюлитный (моделирующий) массаж</div><span>45 мин</span><b>70</b></div>
+<div class="row"><div>Массаж головы, лица и шеи</div><span>30 мин</span><b>45</b></div>
+<div class="row"><div>SPA-программа «Перезагрузка»</div><span>90 мин</span><b>130</b></div>
+</div>
+<div class="grid">
+<div class="card acc"><div class="big">−10<i>%</i></div><div class="m" style="color:var(--ink)">абонемент на 5 или 10 сеансов · утро будних дней</div></div>
+<div class="card"><div class="big">5<i>%</i></div><div class="m">кешбэк баллами с каждого визита</div></div>
+<div class="card dark"><div class="big" style="color:#fff">для офисов</div><div class="m">корпоративные программы и выездной массаж в офис</div></div>
+<div class="notes"><span class="pill">Подарочные сертификаты</span><span class="pill">Онлайн-запись за минуту</span><span class="pill">Кабинет для двоих</span><span class="pill">Душ после сеанса</span></div>
+</div></div>
+</div></section>
+
+<section id="place" style="background:#fff;border-top:1.5px solid var(--line);border-bottom:1.5px solid var(--line)"><div class="w">
+<div class="kick">Где мы</div><h2>Каменная горка, 5 минут пешком от метро</h2>
+<div class="grid g2">
+<div class="map"><iframe title="Карта: м. Каменная горка" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=27.418%2C53.900%2C27.448%2C53.913&amp;layer=mapnik&amp;marker=53.9066%2C27.4335"></iframe></div>
+<div>
+<div class="lr"><b>Район</b><span>Фрунзенский — самый населённый район Минска (≈ 400 тыс. жителей): новые ЖК, молодые семьи, IT.</span></div>
+<div class="lr"><b>Адрес</b><span>пр-т Притыцкого / ул. Каменногорская, 5–7 минут от м. «Каменная горка», рядом ТЦ Green City.</span></div>
+<div class="lr"><b>Помещение</b><span>90 м², 1-й этаж жилого дома, отдельный вход с улицы.</span></div>
+<div class="lr"><b>Аренда</b><span>45 BYN/м² — 4 050 BYN в месяц + ≈ 750 BYN коммунальные. Рынок у метро в спальных районах — 40–55 BYN/м² (realt.by, domovita.by, ноябрь 2026).</span></div>
+<div class="lr"><b>Режим</b><span>Студия открыта каждый день 10:00–22:00. Команда работает 2/2 по 12 часов.</span></div>
+</div></div>
+<div style="margin-top:28px"><div class="kick" style="margin-bottom:16px">Планировка 12 × 7,5 м</div>
+<div class="plan"><div>Кабинет 1<small>10,8 м²</small></div><div>Кабинет 2<small>10,8 м²</small></div><div>Кабинет 3<small>10,8 м²</small></div><div>Кабинет 4 · пары<small>10,8 м²</small></div>
+<div class="cor">Коридор · тихая зона <small>&nbsp;16,8 м²</small></div><div>Ресепшн<small>12,5 м²</small></div><div class="lg">Чайный лаунж<small>6,3 м²</small></div><div>Душ, санузел<small>5,0 м²</small></div><div>Прачечная<small>6,3 м²</small></div></div></div>
+</div></section>
+
+<section id="interior"><div class="w">
+<div class="kick">Интерьер</div><h2>Зелёный и белый: спокойно, чисто, тепло</h2>
+<div class="gal"><img class="a" src="img/room2.jpg" alt="Кабинет для двоих — концепт"><img src="img/room.jpg" alt="Кабинет — концепт"><img src="img/reception.jpg" alt="Ресепшн — концепт"><img src="img/lounge.jpg" alt="Чайный лаунж — концепт"><img src="img/corridor.jpg" alt="Коридор — концепт"></div>
+<div class="palette"><div><span style="background:#F4F7F2"></span>Белый</div><div><span style="background:#A9C4A8"></span>Шалфей</div><div><span style="background:#1F4D3A"></span>Тёмная зелень</div><div><span style="background:#C9A97A"></span>Светлый дуб</div></div>
+<p class="m" style="margin-top:10px">Визуализации — концепт, сгенерированы ИИ.</p>
+</div></section>
+
+<section id="team" style="background:#fff;border-top:1.5px solid var(--line);border-bottom:1.5px solid var(--line)"><div class="w">
+<div class="kick">Команда</div><h2>Четыре учредителя — по 25 % у каждого</h2>
+<div class="grid g4 team">
+<div class="card"><span class="u" style="color:var(--gray)">01</span><h3>Виктор Иванов</h3><span class="r">Директор</span><div class="m">Стратегия, финансы, договоры, маркетинг</div></div>
+<div class="card"><span class="u" style="color:var(--gray)">02</span><h3>Владислав Шкребов</h3><span class="r">Клиенты и маркетинг</span><div class="m">Запись, касса, закупки, сервис, SMM</div></div>
+<div class="card"><span class="u" style="color:var(--gray)">03</span><h3>Георгий Фокин</h3><span class="r">Ведущий мастер</span><div class="m">Стандарты услуг, обучение мастеров, операции</div></div>
+<div class="card"><span class="u" style="color:var(--gray)">04</span><h3>Егор Дода</h3><span class="r">Мастер · финансы</span><div class="m">Массаж, финмодель, отчётность, право</div></div>
+</div>
+<div class="card" style="margin-top:16px"><div class="kick" style="margin-bottom:14px">График: студия 7/7, люди 2/2</div><div class="scroll-x"><div class="sched" id="sched"></div></div></div>
+</div></section>
+
+<section id="code"><div class="w">
+<div class="kick">Этический кодекс</div><h2>8 правил, по которым мы работаем</h2>
+<div class="eth" id="eth"></div>
+<p class="pill" style="margin-top:16px;display:inline-block;border-radius:20px">Подписывает каждый при приёме · нарушение → разговор → письменное замечание → расставание</p>
+</div></section>
+
+<section id="money" style="background:#fff;border-top:1.5px solid var(--line)"><div class="w">
+<div class="kick">Цифры проекта</div><h2>Сколько стоит открыть и когда окупится</h2>
+<div class="grid g4">
+<div class="card dark"><div class="big" style="color:#fff">148 тыс.<i>BYN</i></div><div class="m">инвестиции — 4 × 38 000, собственные средства</div></div>
+<div class="card acc"><div class="big">2,6 → 1,5<i>года</i></div><div class="m" style="color:var(--ink)">окупаемость: базовая → с предпродажей абонементов</div></div>
+<div class="card"><div class="big">43<i>%</i></div><div class="m">внутренняя норма доходности · ЧДД 183 тыс. BYN</div></div>
+<div class="card"><div class="big">19,6<i>в день</i></div><div class="m">сеансов — точка безубыточности (план 3-го года — 28,8)</div></div>
+</div>
+<div class="grid g2" style="margin-top:16px">
+<div class="card"><div class="kick">Чистая прибыль по годам, тыс. BYN</div>
+<div class="bars"><div class="neg"><span>−22</span><i style="height:14%"></i><small>1-й</small></div><div><span>60</span><i style="height:38%"></i><small>2-й</small></div><div><span>111</span><i style="height:70%"></i><small>3-й</small></div><div><span>138</span><i style="height:88%"></i><small>4-й</small></div><div><span>158</span><i style="height:100%"></i><small>5-й</small></div></div></div>
+<div><table><tr><th>Затраты в месяц, 1-й год</th><th>BYN</th></tr>
+<tr><td>Фонд оплаты труда (12 человек)</td><td>21 063</td></tr><tr><td>ФСЗН + Белгосстрах 34,6 %</td><td>7 288</td></tr><tr><td>Аренда 90 м² × 45 BYN</td><td>4 050</td></tr>
+<tr><td>Коммунальные, бухгалтерия, CRM, охрана</td><td>1 570</td></tr><tr><td>Маркетинг</td><td>2 000</td></tr><tr><td>Расходники 6,50 BYN на сеанс</td><td>3 510</td></tr><tr class="hl"><td><b>Налог</b></td><td><b>УСН 6 %</b></td></tr></table>
+<p class="m">Инфляция учтена: 6 % в 2027 г., далее 5 % в год — растут и затраты, и прайс.</p></div>
+</div>
+</div></section>
+
+<footer><div class="w">
+<div class="logo" style="font-size:clamp(44px,9vw,110px);letter-spacing:-.05em">ДОФАМИН<span style="color:var(--acc)">.</span></div>
+<p class="m" style="font-size:18px;margin:14px 0 26px">Учебный бизнес-проект · Минск · 2026</p>
+<div style="display:flex;gap:12px;flex-wrap:wrap"><a class="btn acc" href="docs/Dofamin_presentation.pdf" target="_blank">Презентация, PDF</a><a class="btn line" href="docs/Dofamin_business_plan.pdf" target="_blank">Бизнес-план, PDF</a></div>
+</div></footer>
+<script>
+const ETH=[['Гость, а не чек','Не навязываем услуги и косметику. Советуем только то, что реально поможет.'],['Чёткие границы','Только немедицинский массаж. Каждое касание — с согласия, сеанс можно остановить в любой момент.'],['Тайна гостя','Не обсуждаем клиентов ни в студии, ни в соцсетях. Фото и отзывы — только с разрешения.'],['Чистота всегда','Свежее бельё каждому гостю, дезинфекция после каждого сеанса.'],['Минута в минуту','Сеанс начинается вовремя. Опоздали мы — гость получает скидку за наш счёт.'],['Честные деньги','Все оплаты — через кассу. Не уводим гостей «к себе на дом».'],['Команда — своя','Без криков, сплетен и споров при гостях. Конфликт решаем в тот же день.'],['Ошибся — исправь','Признаём ошибку, извиняемся, исправляем. Раз в квартал — обучение.']];
+document.getElementById('eth').innerHTML=ETH.map((e,i)=>`<div class="card"><div class="n">${i+1}</div><h3>${e[0]}</h3><p>${e[1]}</p></div>`).join('');
+const D=['Пн','Вт','Ср','Чт','Пт','Сб','Вс','Пн','Вт','Ср','Чт','Пт','Сб','Вс'];
+let h='<div class="h"></div>'+D.map(d=>`<div class="h">${d}</div>`).join('');
+[['Смена А',0],['Смена Б',1]].forEach(([n,o])=>{h+=`<div class="l">${n}</div>`+D.map((d,i)=>{const on=Math.floor(i/2)%2===o;return `<div class="${on?'on':''}">${on?'12ч':''}</div>`}).join('')});
+document.getElementById('sched').innerHTML=h;
+</script>
+</body>
+</html>
